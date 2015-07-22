@@ -1,0 +1,176 @@
+configure: WARNING: unrecognized options: --enable-inputapi
+configure: WARNING: If you wanted to set the --build type, don't use --host.
+    If a cross compiler is detected then cross compile mode will be used.
+configure: loading cache arm-linux.cache
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for arm-linux-strip... arm-linux-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking for arm-linux-g++... arm-linux-g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether arm-linux-g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of arm-linux-g++... gcc3
+checking for arm-linux-gcc... arm-linux-gcc
+checking whether we are using the GNU C compiler... yes
+checking whether arm-linux-gcc accepts -g... yes
+checking for arm-linux-gcc option to accept ISO C89... none needed
+checking dependency style of arm-linux-gcc... gcc3
+checking how to run the C preprocessor... arm-linux-gcc -E
+checking whether the C compiler supports -fvisibility=hidden... yes
+checking whether to use -fvisibility=hidden... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... arm-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by arm-linux-gcc... /usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld
+checking if the linker (/usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/local/arm/4.4.1/bin/arm-linux-nm -B
+checking the name lister (/usr/local/arm/4.4.1/bin/arm-linux-nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for arm-linux-ar... arm-linux-ar
+checking for arm-linux-strip... (cached) arm-linux-strip
+checking for arm-linux-ranlib... arm-linux-ranlib
+checking command to parse /usr/local/arm/4.4.1/bin/arm-linux-nm -B output from arm-linux-gcc object... ok
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether arm-linux-g++ accepts -g... (cached) yes
+checking dependency style of arm-linux-g++... (cached) gcc3
+checking how to run the C++ preprocessor... arm-linux-g++ -E
+checking for objdir... .libs
+checking if arm-linux-gcc supports -fno-rtti -fno-exceptions... no
+checking for arm-linux-gcc option to produce PIC... -fPIC -DPIC
+checking if arm-linux-gcc PIC flag -fPIC -DPIC works... yes
+checking if arm-linux-gcc static flag -static works... yes
+checking if arm-linux-gcc supports -c -o file.o... yes
+checking if arm-linux-gcc supports -c -o file.o... (cached) yes
+checking whether the arm-linux-gcc linker (/usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... cross
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ld used by arm-linux-g++... /usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld
+checking if the linker (/usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld) is GNU ld... yes
+checking whether the arm-linux-g++ linker (/usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking for arm-linux-g++ option to produce PIC... -fPIC -DPIC
+checking if arm-linux-g++ PIC flag -fPIC -DPIC works... yes
+checking if arm-linux-g++ static flag -static works... yes
+checking if arm-linux-g++ supports -c -o file.o... yes
+checking if arm-linux-g++ supports -c -o file.o... (cached) yes
+checking whether the arm-linux-g++ linker (/usr/local/arm/4.4.1/arm-none-linux-gnueabi/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for dlopen in -ldl... (cached) yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether arm-linux-gcc needs -traditional... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... no
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking return type of signal handlers... void
+checking whether lstat dereferences a symlink specified with a trailing slash... no
+checking whether stat accepts an empty string... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for bzero... yes
+checking for gettimeofday... yes
+checking for memmove... yes
+checking for memset... yes
+checking for munmap... yes
+checking for select... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking whether linear modules is requested... yes
+checking whether dejitter module is requested... yes
+checking whether linear-h2200 module is requested... yes
+checking whether variance module is requested... yes
+checking whether pthres module is requested... yes
+checking whether ucb1x00 module is requested... yes
+checking whether corgi module is requested... yes
+checking whether collie module is requested... yes
+checking whether h3600 module is requested... yes
+checking whether mk712 module is requested... yes
+checking whether arctic2 module is requested... yes
+checking whether tatung module is requested... yes
+checking whether input module is requested... yes
+checking where to place modules... ${libdir}/ts/
+checking whether to enable debugging... no
+configure: updating cache arm-linux.cache
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating etc/Makefile
+config.status: creating plugins/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tslib-0.0.pc
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --enable-inputapi

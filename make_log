@@ -1,0 +1,222 @@
+make  all-recursive
+make[1]: Entering directory `/root/tslib/tslib-1.4/tslib'
+Making all in etc
+make[2]: Entering directory `/root/tslib/tslib-1.4/tslib/etc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/root/tslib/tslib-1.4/tslib/etc'
+Making all in src
+make[2]: Entering directory `/root/tslib/tslib-1.4/tslib/src'
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_attach.lo -MD -MP -MF .deps/ts_attach.Tpo -c -o ts_attach.lo ts_attach.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_attach.lo -MD -MP -MF .deps/ts_attach.Tpo -c ts_attach.c  -fPIC -DPIC -o .libs/ts_attach.o
+mv -f .deps/ts_attach.Tpo .deps/ts_attach.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_close.lo -MD -MP -MF .deps/ts_close.Tpo -c -o ts_close.lo ts_close.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_close.lo -MD -MP -MF .deps/ts_close.Tpo -c ts_close.c  -fPIC -DPIC -o .libs/ts_close.o
+mv -f .deps/ts_close.Tpo .deps/ts_close.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_config.lo -MD -MP -MF .deps/ts_config.Tpo -c -o ts_config.lo ts_config.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_config.lo -MD -MP -MF .deps/ts_config.Tpo -c ts_config.c  -fPIC -DPIC -o .libs/ts_config.o
+mv -f .deps/ts_config.Tpo .deps/ts_config.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_error.lo -MD -MP -MF .deps/ts_error.Tpo -c -o ts_error.lo ts_error.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_error.lo -MD -MP -MF .deps/ts_error.Tpo -c ts_error.c  -fPIC -DPIC -o .libs/ts_error.o
+mv -f .deps/ts_error.Tpo .deps/ts_error.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_fd.lo -MD -MP -MF .deps/ts_fd.Tpo -c -o ts_fd.lo ts_fd.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_fd.lo -MD -MP -MF .deps/ts_fd.Tpo -c ts_fd.c  -fPIC -DPIC -o .libs/ts_fd.o
+mv -f .deps/ts_fd.Tpo .deps/ts_fd.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_load_module.lo -MD -MP -MF .deps/ts_load_module.Tpo -c -o ts_load_module.lo ts_load_module.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_load_module.lo -MD -MP -MF .deps/ts_load_module.Tpo -c ts_load_module.c  -fPIC -DPIC -o .libs/ts_load_module.o
+mv -f .deps/ts_load_module.Tpo .deps/ts_load_module.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_open.lo -MD -MP -MF .deps/ts_open.Tpo -c -o ts_open.lo ts_open.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_open.lo -MD -MP -MF .deps/ts_open.Tpo -c ts_open.c  -fPIC -DPIC -o .libs/ts_open.o
+mv -f .deps/ts_open.Tpo .deps/ts_open.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_parse_vars.lo -MD -MP -MF .deps/ts_parse_vars.Tpo -c -o ts_parse_vars.lo ts_parse_vars.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_parse_vars.lo -MD -MP -MF .deps/ts_parse_vars.Tpo -c ts_parse_vars.c  -fPIC -DPIC -o .libs/ts_parse_vars.o
+mv -f .deps/ts_parse_vars.Tpo .deps/ts_parse_vars.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_read.lo -MD -MP -MF .deps/ts_read.Tpo -c -o ts_read.lo ts_read.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_read.lo -MD -MP -MF .deps/ts_read.Tpo -c ts_read.c  -fPIC -DPIC -o .libs/ts_read.o
+mv -f .deps/ts_read.Tpo .deps/ts_read.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I..    -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_read_raw.lo -MD -MP -MF .deps/ts_read_raw.Tpo -c -o ts_read_raw.lo ts_read_raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\" -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_read_raw.lo -MD -MP -MF .deps/ts_read_raw.Tpo -c ts_read_raw.c  -fPIC -DPIC -o .libs/ts_read_raw.o
+mv -f .deps/ts_read_raw.Tpo .deps/ts_read_raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc -DPLUGIN_DIR=\"/root/tslib/build/lib/ts/\" -DTS_CONF=\"/root/tslib/build/etc/ts.conf\"  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -version-info 1:1:1 -release 0.0 -export-dynamic  -o libts.la -rpath /root/tslib/build/lib ts_attach.lo ts_close.lo ts_config.lo ts_error.lo ts_fd.lo ts_load_module.lo ts_open.lo ts_parse_vars.lo ts_read.lo ts_read_raw.lo -ldl -ldl 
+libtool: link: arm-linux-gcc -shared  .libs/ts_attach.o .libs/ts_close.o .libs/ts_config.o .libs/ts_error.o .libs/ts_fd.o .libs/ts_load_module.o .libs/ts_open.o .libs/ts_parse_vars.o .libs/ts_read.o .libs/ts_read_raw.o   -ldl    -Wl,-soname -Wl,libts-0.0.so.0 -o .libs/libts-0.0.so.0.1.1
+libtool: link: (cd ".libs" && rm -f "libts-0.0.so.0" && ln -s "libts-0.0.so.0.1.1" "libts-0.0.so.0")
+libtool: link: (cd ".libs" && rm -f "libts.so" && ln -s "libts-0.0.so.0.1.1" "libts.so")
+libtool: link: ( cd ".libs" && rm -f "libts.la" && ln -s "../libts.la" "libts.la" )
+make[2]: Leaving directory `/root/tslib/tslib-1.4/tslib/src'
+Making all in plugins
+make[2]: Entering directory `/root/tslib/tslib-1.4/tslib/plugins'
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT linear.lo -MD -MP -MF .deps/linear.Tpo -c -o linear.lo linear.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT linear.lo -MD -MP -MF .deps/linear.Tpo -c linear.c  -fPIC -DPIC -o .libs/linear.o
+linear.c: In function 'linear_xyswap':
+linear.c:86: warning: unused parameter 'str'
+linear.c:86: warning: unused parameter 'data'
+linear.c: In function 'mod_init':
+linear.c:101: warning: unused parameter 'dev'
+mv -f .deps/linear.Tpo .deps/linear.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o linear.la -rpath /root/tslib/build/lib/ts/ linear.lo  
+libtool: link: arm-linux-gcc -shared  .libs/linear.o      -Wl,-soname -Wl,linear.so -o .libs/linear.so
+libtool: link: ( cd ".libs" && rm -f "linear.la" && ln -s "../linear.la" "linear.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT dejitter.lo -MD -MP -MF .deps/dejitter.Tpo -c -o dejitter.lo dejitter.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT dejitter.lo -MD -MP -MF .deps/dejitter.Tpo -c dejitter.c  -fPIC -DPIC -o .libs/dejitter.o
+dejitter.c: In function 'mod_init':
+dejitter.c:200: warning: unused parameter 'dev'
+mv -f .deps/dejitter.Tpo .deps/dejitter.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o dejitter.la -rpath /root/tslib/build/lib/ts/ dejitter.lo  
+libtool: link: arm-linux-gcc -shared  .libs/dejitter.o      -Wl,-soname -Wl,dejitter.so -o .libs/dejitter.so
+libtool: link: ( cd ".libs" && rm -f "dejitter.la" && ln -s "../dejitter.la" "dejitter.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT variance.lo -MD -MP -MF .deps/variance.Tpo -c -o variance.lo variance.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT variance.lo -MD -MP -MF .deps/variance.Tpo -c variance.c  -fPIC -DPIC -o .libs/variance.o
+variance.c: In function 'mod_init':
+variance.c:164: warning: unused parameter 'dev'
+mv -f .deps/variance.Tpo .deps/variance.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o variance.la -rpath /root/tslib/build/lib/ts/ variance.lo  
+libtool: link: arm-linux-gcc -shared  .libs/variance.o      -Wl,-soname -Wl,variance.so -o .libs/variance.so
+libtool: link: ( cd ".libs" && rm -f "variance.la" && ln -s "../variance.la" "variance.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT pthres.lo -MD -MP -MF .deps/pthres.Tpo -c -o pthres.lo pthres.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT pthres.lo -MD -MP -MF .deps/pthres.Tpo -c pthres.c  -fPIC -DPIC -o .libs/pthres.o
+pthres.c: In function 'mod_init':
+pthres.c:134: warning: unused parameter 'dev'
+mv -f .deps/pthres.Tpo .deps/pthres.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o pthres.la -rpath /root/tslib/build/lib/ts/ pthres.lo  
+libtool: link: arm-linux-gcc -shared  .libs/pthres.o      -Wl,-soname -Wl,pthres.so -o .libs/pthres.so
+libtool: link: ( cd ".libs" && rm -f "pthres.la" && ln -s "../pthres.la" "pthres.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ucb1x00-raw.lo -MD -MP -MF .deps/ucb1x00-raw.Tpo -c -o ucb1x00-raw.lo ucb1x00-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ucb1x00-raw.lo -MD -MP -MF .deps/ucb1x00-raw.Tpo -c ucb1x00-raw.c  -fPIC -DPIC -o .libs/ucb1x00-raw.o
+ucb1x00-raw.c: In function 'ucb1x00_read':
+ucb1x00-raw.c:25: warning: unused variable 'nr'
+ucb1x00-raw.c:21: warning: unused variable 'total'
+ucb1x00-raw.c: In function 'mod_init':
+ucb1x00-raw.c:52: warning: unused parameter 'dev'
+ucb1x00-raw.c:52: warning: unused parameter 'params'
+mv -f .deps/ucb1x00-raw.Tpo .deps/ucb1x00-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o ucb1x00.la -rpath /root/tslib/build/lib/ts/ ucb1x00-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/ucb1x00-raw.o      -Wl,-soname -Wl,ucb1x00.so -o .libs/ucb1x00.so
+libtool: link: ( cd ".libs" && rm -f "ucb1x00.la" && ln -s "../ucb1x00.la" "ucb1x00.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT corgi-raw.lo -MD -MP -MF .deps/corgi-raw.Tpo -c -o corgi-raw.lo corgi-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT corgi-raw.lo -MD -MP -MF .deps/corgi-raw.Tpo -c corgi-raw.c  -fPIC -DPIC -o .libs/corgi-raw.o
+corgi-raw.c: In function 'corgi_read':
+corgi-raw.c:24: warning: unused variable 'nr'
+corgi-raw.c:20: warning: unused variable 'total'
+corgi-raw.c: In function 'mod_init':
+corgi-raw.c:50: warning: unused parameter 'dev'
+corgi-raw.c:50: warning: unused parameter 'params'
+mv -f .deps/corgi-raw.Tpo .deps/corgi-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o corgi.la -rpath /root/tslib/build/lib/ts/ corgi-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/corgi-raw.o      -Wl,-soname -Wl,corgi.so -o .libs/corgi.so
+libtool: link: ( cd ".libs" && rm -f "corgi.la" && ln -s "../corgi.la" "corgi.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT collie-raw.lo -MD -MP -MF .deps/collie-raw.Tpo -c -o collie-raw.lo collie-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT collie-raw.lo -MD -MP -MF .deps/collie-raw.Tpo -c collie-raw.c  -fPIC -DPIC -o .libs/collie-raw.o
+collie-raw.c: In function 'collie_read':
+collie-raw.c:24: warning: unused variable 'nr'
+collie-raw.c:20: warning: unused variable 'total'
+collie-raw.c: In function 'mod_init':
+collie-raw.c:51: warning: unused parameter 'dev'
+collie-raw.c:51: warning: unused parameter 'params'
+mv -f .deps/collie-raw.Tpo .deps/collie-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o collie.la -rpath /root/tslib/build/lib/ts/ collie-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/collie-raw.o      -Wl,-soname -Wl,collie.so -o .libs/collie.so
+libtool: link: ( cd ".libs" && rm -f "collie.la" && ln -s "../collie.la" "collie.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT h3600-raw.lo -MD -MP -MF .deps/h3600-raw.Tpo -c -o h3600-raw.lo h3600-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT h3600-raw.lo -MD -MP -MF .deps/h3600-raw.Tpo -c h3600-raw.c  -fPIC -DPIC -o .libs/h3600-raw.o
+h3600-raw.c: In function 'h3600_read':
+h3600-raw.c:24: warning: unused variable 'nr'
+h3600-raw.c:20: warning: unused variable 'total'
+h3600-raw.c: In function 'mod_init':
+h3600-raw.c:50: warning: unused parameter 'dev'
+h3600-raw.c:50: warning: unused parameter 'params'
+mv -f .deps/h3600-raw.Tpo .deps/h3600-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o h3600.la -rpath /root/tslib/build/lib/ts/ h3600-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/h3600-raw.o      -Wl,-soname -Wl,h3600.so -o .libs/h3600.so
+libtool: link: ( cd ".libs" && rm -f "h3600.la" && ln -s "../h3600.la" "h3600.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT mk712-raw.lo -MD -MP -MF .deps/mk712-raw.Tpo -c -o mk712-raw.lo mk712-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT mk712-raw.lo -MD -MP -MF .deps/mk712-raw.Tpo -c mk712-raw.c  -fPIC -DPIC -o .libs/mk712-raw.o
+mk712-raw.c: In function 'mk712_read':
+mk712-raw.c:24: warning: unused variable 'nr'
+mk712-raw.c:20: warning: unused variable 'total'
+mk712-raw.c: In function 'mod_init':
+mk712-raw.c:53: warning: unused parameter 'dev'
+mk712-raw.c:53: warning: unused parameter 'params'
+mv -f .deps/mk712-raw.Tpo .deps/mk712-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o mk712.la -rpath /root/tslib/build/lib/ts/ mk712-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/mk712-raw.o      -Wl,-soname -Wl,mk712.so -o .libs/mk712.so
+libtool: link: ( cd ".libs" && rm -f "mk712.la" && ln -s "../mk712.la" "mk712.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT arctic2-raw.lo -MD -MP -MF .deps/arctic2-raw.Tpo -c -o arctic2-raw.lo arctic2-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT arctic2-raw.lo -MD -MP -MF .deps/arctic2-raw.Tpo -c arctic2-raw.c  -fPIC -DPIC -o .libs/arctic2-raw.o
+arctic2-raw.c: In function 'arctic2_read':
+arctic2-raw.c:25: warning: unused variable 'nr'
+arctic2-raw.c:21: warning: unused variable 'total'
+arctic2-raw.c: In function 'mod_init':
+arctic2-raw.c:51: warning: unused parameter 'dev'
+arctic2-raw.c:51: warning: unused parameter 'params'
+mv -f .deps/arctic2-raw.Tpo .deps/arctic2-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o arctic2.la -rpath /root/tslib/build/lib/ts/ arctic2-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/arctic2-raw.o      -Wl,-soname -Wl,arctic2.so -o .libs/arctic2.so
+libtool: link: ( cd ".libs" && rm -f "arctic2.la" && ln -s "../arctic2.la" "arctic2.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT tatung-raw.lo -MD -MP -MF .deps/tatung-raw.Tpo -c -o tatung-raw.lo tatung-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT tatung-raw.lo -MD -MP -MF .deps/tatung-raw.Tpo -c tatung-raw.c  -fPIC -DPIC -o .libs/tatung-raw.o
+tatung-raw.c: In function 'tatung_read':
+tatung-raw.c:20: warning: unused variable 'total'
+tatung-raw.c: In function 'mod_init':
+tatung-raw.c:60: warning: unused parameter 'dev'
+tatung-raw.c:60: warning: unused parameter 'params'
+mv -f .deps/tatung-raw.Tpo .deps/tatung-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o tatung.la -rpath /root/tslib/build/lib/ts/ tatung-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/tatung-raw.o      -Wl,-soname -Wl,tatung.so -o .libs/tatung.so
+libtool: link: ( cd ".libs" && rm -f "tatung.la" && ln -s "../tatung.la" "tatung.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT linear-h2200.lo -MD -MP -MF .deps/linear-h2200.Tpo -c -o linear-h2200.lo linear-h2200.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT linear-h2200.lo -MD -MP -MF .deps/linear-h2200.Tpo -c linear-h2200.c  -fPIC -DPIC -o .libs/linear-h2200.o
+linear-h2200.c: In function 'mod_init':
+linear-h2200.c:109: warning: unused parameter 'dev'
+linear-h2200.c:109: warning: unused parameter 'params'
+mv -f .deps/linear-h2200.Tpo .deps/linear-h2200.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o linear_h2200.la -rpath /root/tslib/build/lib/ts/ linear-h2200.lo  
+libtool: link: arm-linux-gcc -shared  .libs/linear-h2200.o      -Wl,-soname -Wl,linear_h2200.so -o .libs/linear_h2200.so
+libtool: link: ( cd ".libs" && rm -f "linear_h2200.la" && ln -s "../linear_h2200.la" "linear_h2200.la" )
+/bin/bash ../libtool --tag=CC   --mode=compile arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT input-raw.lo -MD -MP -MF .deps/input-raw.Tpo -c -o input-raw.lo input-raw.c
+libtool: compile:  arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT input-raw.lo -MD -MP -MF .deps/input-raw.Tpo -c input-raw.c  -fPIC -DPIC -o .libs/input-raw.o
+input-raw.c: In function 'mod_init':
+input-raw.c:286: warning: unused parameter 'dev'
+mv -f .deps/input-raw.Tpo .deps/input-raw.Plo
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DTSLIB_INTERNAL -fvisibility=hidden -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -module -avoid-version  -o input.la -rpath /root/tslib/build/lib/ts/ input-raw.lo  
+libtool: link: arm-linux-gcc -shared  .libs/input-raw.o      -Wl,-soname -Wl,input.so -o .libs/input.so
+libtool: link: ( cd ".libs" && rm -f "input.la" && ln -s "../input.la" "input.la" )
+make[2]: Leaving directory `/root/tslib/tslib-1.4/tslib/plugins'
+Making all in tests
+make[2]: Entering directory `/root/tslib/tslib-1.4/tslib/tests'
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_test.o -MD -MP -MF .deps/ts_test.Tpo -c -o ts_test.o ts_test.c
+mv -f .deps/ts_test.Tpo .deps/ts_test.Po
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT fbutils.o -MD -MP -MF .deps/fbutils.Tpo -c -o fbutils.o fbutils.c
+mv -f .deps/fbutils.Tpo .deps/fbutils.Po
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT font_8x8.o -MD -MP -MF .deps/font_8x8.Tpo -c -o font_8x8.o font_8x8.c
+font_8x8.c:2581: warning: pointer targets in initialization differ in signedness
+mv -f .deps/font_8x8.Tpo .deps/font_8x8.Po
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT font_8x16.o -MD -MP -MF .deps/font_8x16.Tpo -c -o font_8x16.o font_8x16.c
+font_8x16.c:4629: warning: pointer targets in initialization differ in signedness
+mv -f .deps/font_8x16.Tpo .deps/font_8x16.Po
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DGCC_HASCLASSVISIBILITY -O2 -Wall -W   -o ts_test ts_test.o fbutils.o font_8x8.o font_8x16.o ../src/libts.la -ldl 
+libtool: link: arm-linux-gcc -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -o .libs/ts_test ts_test.o fbutils.o font_8x8.o font_8x16.o  ../src/.libs/libts.so -ldl -Wl,-rpath -Wl,/root/tslib/build/lib
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_calibrate.o -MD -MP -MF .deps/ts_calibrate.Tpo -c -o ts_calibrate.o ts_calibrate.c
+mv -f .deps/ts_calibrate.Tpo .deps/ts_calibrate.Po
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT testutils.o -MD -MP -MF .deps/testutils.Tpo -c -o testutils.o testutils.c
+mv -f .deps/testutils.Tpo .deps/testutils.Po
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DGCC_HASCLASSVISIBILITY -O2 -Wall -W   -o ts_calibrate ts_calibrate.o fbutils.o testutils.o font_8x8.o font_8x16.o ../src/libts.la -ldl 
+libtool: link: arm-linux-gcc -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -o .libs/ts_calibrate ts_calibrate.o fbutils.o testutils.o font_8x8.o font_8x16.o  ../src/.libs/libts.so -ldl -Wl,-rpath -Wl,/root/tslib/build/lib
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_print.o -MD -MP -MF .deps/ts_print.Tpo -c -o ts_print.o ts_print.c
+mv -f .deps/ts_print.Tpo .deps/ts_print.Po
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DGCC_HASCLASSVISIBILITY -O2 -Wall -W   -o ts_print ts_print.o ../src/libts.la -ldl 
+libtool: link: arm-linux-gcc -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -o .libs/ts_print ts_print.o  ../src/.libs/libts.so -ldl -Wl,-rpath -Wl,/root/tslib/build/lib
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_print_raw.o -MD -MP -MF .deps/ts_print_raw.Tpo -c -o ts_print_raw.o ts_print_raw.c
+mv -f .deps/ts_print_raw.Tpo .deps/ts_print_raw.Po
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DGCC_HASCLASSVISIBILITY -O2 -Wall -W   -o ts_print_raw ts_print_raw.o ../src/libts.la -ldl 
+libtool: link: arm-linux-gcc -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -o .libs/ts_print_raw ts_print_raw.o  ../src/.libs/libts.so -ldl -Wl,-rpath -Wl,/root/tslib/build/lib
+arm-linux-gcc -DHAVE_CONFIG_H -I. -I.. -I../src    -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -MT ts_harvest.o -MD -MP -MF .deps/ts_harvest.Tpo -c -o ts_harvest.o ts_harvest.c
+ts_harvest.c: In function 'main':
+ts_harvest.c:123: warning: comparison between signed and unsigned integer expressions
+ts_harvest.c:128: warning: comparison between signed and unsigned integer expressions
+ts_harvest.c:70: warning: unused variable 'samp'
+mv -f .deps/ts_harvest.Tpo .deps/ts_harvest.Po
+/bin/bash ../libtool --tag=CC   --mode=link arm-linux-gcc  -DGCC_HASCLASSVISIBILITY -O2 -Wall -W   -o ts_harvest ts_harvest.o fbutils.o testutils.o font_8x8.o font_8x16.o ../src/libts.la -ldl 
+libtool: link: arm-linux-gcc -DGCC_HASCLASSVISIBILITY -O2 -Wall -W -o .libs/ts_harvest ts_harvest.o fbutils.o testutils.o font_8x8.o font_8x16.o  ../src/.libs/libts.so -ldl -Wl,-rpath -Wl,/root/tslib/build/lib
+make[2]: Leaving directory `/root/tslib/tslib-1.4/tslib/tests'
+make[2]: Entering directory `/root/tslib/tslib-1.4/tslib'
+make[2]: Leaving directory `/root/tslib/tslib-1.4/tslib'
+make[1]: Leaving directory `/root/tslib/tslib-1.4/tslib'
